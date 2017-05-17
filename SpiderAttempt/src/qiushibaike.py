@@ -32,3 +32,8 @@ for item in divlist:
     # print item
 
 # print divlist[0]
+
+
+### Python自带的正则更好
+# pattern = re.compile('<div.*?class="author.*?>.*?<a.*?</a>.*?<a.*?>(.*?)</a>.*?<div.*?class'+
+#                         '="content".*?title="(.*?)">(.*?)</div>(.*?)<div class="stats.*?class="number">(.*?)</i>',re.S)
